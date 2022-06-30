@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.inhatc.listapp.Weather"
+    android:background="@drawable/weather_backimg_1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/today"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="T  O  D  A  Y"
+        android:textAlignment="center"
+        android:textColor="#66827979"
+        android:textSize="55sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        app:srcCompat="@drawable/sun" />
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="맑음"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#80494343"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:id="@+id/menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="70dp"
+        android:text="추천 메뉴 1"
+        android:textSize="23sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추천 메뉴 2"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="73dp"
+        android:textSize="23sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="73dp"
+        android:text="추천 메뉴 3 "
+        android:textSize="23sp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

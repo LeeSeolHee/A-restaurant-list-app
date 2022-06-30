@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="7dp"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_itembackground"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/item_poster"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/item_id"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="id"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="##동 샐러드"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/item_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="35dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="분위기 좋고 맛도 있어요! 그리고 사장님이 너무 친철하게 해주셔서 기분 좋게 먹고 갑니다! "
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/item_keyword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="65dp"
+            android:text="#SNS 추천  #양보다 질  #질보다 양"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout><!--            android:layout_toRightOf="@id/item_title"-->
+    <!--
+        android:visibility="gone"-->

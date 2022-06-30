@@ -1,0 +1,8 @@
+<resources>
+    <string name="listapp">listapp</string>
+    <string name="title_activity_my_map2">MyMap2</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_google_map_source">GoogleMap_Source</string>
+    <string name="title_activity_maps_exam">MapsActivityExam</string>
+    <string name="title_activity_my_map">MyMap</string>
+</resources>
